@@ -1,0 +1,19 @@
+from flask import flask, jsonify
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return ("Welcome these are the routes available:
+    "/api/v1.0/precipitation"
+    "/api/v1.0/stations"
+    "/api/v1.0/tobs"
+@app.route("/api/v1.0/precipitation")
+def prec():
+
+@app.route("/api/v1.0/stations")
+def stat():
+
+@app.route("/api/v1.0/tobs")
+def temp():
+
